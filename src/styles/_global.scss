@@ -1,0 +1,98 @@
+body {
+  background: #c5c5c5;
+}
+
+.container {
+  //display: flex;
+  //align-items: center;
+  //flex-direction: column;
+  //border-bottom: 1px solid #a8a8a8;
+
+  &__wrapper {
+    //border: 1px solid gray;
+
+    //display: flex;
+    //background-color: #fff;
+    //flex-direction: column;
+    //border: 2px solid #b94646;
+    //width: 1240px!important;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    display: inherit;
+    float: inherit;
+    justify-content: flex-end;
+    //position: relative;
+    //justify-content: center;
+  }
+}
+
+.g-button-1 {
+  padding: 10px 12px 10px 12px;
+  border-radius: 5px;
+  background-color: $lightGreen;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $yellow;
+    transition: .1s;
+  }
+}
+
+.g-button-2 {
+  padding: 10px 12px 10px 12px;
+  border-radius: 5px;
+  background-color: white;
+  color: $lightGreen;
+  border: 1px solid $lightWhite;
+  font-size: 14px;
+
+  &:hover {
+    background-color: $lightWhite;
+    color: $lightBlack;
+    transition: .1s;
+  }
+}
+
+.g-link {
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  margin: 0 0 0 0!important;
+  padding: 10px 15px 10px 15px!important;
+  width: auto!important;
+  background-color: $lightGreen;
+  border-radius: 5px;
+
+
+  &:hover {
+    transition: .4s;
+    background-color: $yellow;
+    color: white;
+  }
+
+}
+
+
+//@media (max-width: 1240px) {
+//  .container {
+//
+//    &__wrapper{
+//      width: 1024px;
+//
+//
+//    }
+//  }
+//}
+
+//@media (max-width: 1024px) {
+//  .container {
+//    padding: 0 10px 0 10px ;
+//    &__wrapper{
+//      width: 100%;
+//    }
+//  }
+//}

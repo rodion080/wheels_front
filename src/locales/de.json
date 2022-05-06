@@ -1,0 +1,20 @@
+{
+  "account":"Konto",
+  "accountExit":"Abmeldung",
+  "login":"Anmeldung/Abmeldung",
+  "registerFormHead": "Registrierung",
+  "loginFormHead": "Anmeldung",
+  "emailForm":"Email",
+  "loginForm":"Login",
+  "pass":"Passwort",
+  "confPass":"Passwort bestätigen",
+  "regButton": "Registrieren",
+  "regQuestion": "Schön registriert?",
+  "logInLinkName": "Anmelden",
+  "newsLink": "Neuigkeiten",
+  "mapLink": "Karte",
+  "listLink": "Liste der Reisen",
+  "leadRatingLink": "Bestenliste",
+  "searchHeading": "Wählen Sie bitte die Stadt, wo man die Reise organisieren will",
+  "searchButton": "Suchen"
+}

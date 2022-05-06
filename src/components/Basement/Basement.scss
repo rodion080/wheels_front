@@ -1,0 +1,22 @@
+.basement{
+  height: 60px;
+  background-color: $navBar2;
+  color: $lightWhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper{
+    //border: 1px solid sandybrown;
+
+    a{
+      color: $lightWhite;
+      &:hover{
+        transition: .4s;
+        color: $lightGreen;
+      }
+
+    }
+  }
+
+}

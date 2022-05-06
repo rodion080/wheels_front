@@ -1,0 +1,81 @@
+.news__cardbox{
+  //border: 1px solid red;
+  //display: flex;
+  //float: left;
+  height: 290px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  //flex-wrap: wrap;
+  //justify-content: space-between;
+  width: $workPlaceWith;
+  //display: inline-block;
+  //visibility: hidden;
+  margin-top: 20px;
+
+}
+
+.news__messages{
+  //height: 100px;
+  //border: 2px solid black;
+  width: 100%;
+  display: flex;
+  //width: 1050px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+
+  button:first-child{
+
+  }
+
+  button{
+
+  }
+
+  &-item{
+    margin: 10px;
+    //border: 1px solid #ccc;
+    position: relative;
+    flex: 0 0 31.433%;
+    transition: .4s;
+    height: 210px;
+    width: 300px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    display: flex;
+    justify-content: space-around;
+
+    img{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 60px 15px 0 20px;
+    }
+
+    div{
+      overflow: hidden;
+      color: $lightBlack;
+
+      h1{
+        padding: 10px 0 10px 0;
+        font-size: 17px;
+        line-height:1.1;
+        margin-top: 18px;
+      }
+
+      div{
+
+        line-height: 20px;
+        padding: 0 15px 0 0;
+
+      }
+
+    }
+
+
+
+  }
+
+}

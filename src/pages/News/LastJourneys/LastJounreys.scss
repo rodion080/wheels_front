@@ -1,0 +1,69 @@
+.news__last-journeys{
+  //border: 2px solid darkolivegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+
+  &-box{
+    width: $workPlaceWith;
+    //border: 2px solid darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+
+  &-item{
+    //border: 2px solid darkolivegreen;
+    width: 50%;
+    transition: .4s;
+    border-right: 1px solid $middleWhiteBlack;
+    padding: 10px;
+    color: $lightBlack;
+    //height: 350px;
+
+    h1{
+      border-bottom: 1px solid $middleWhiteBlack;
+      //border: 1px solid salmon;
+      padding: 10px 0 10px 0;
+      //font-size: 17px;
+      //font-weight: 500;
+      font-size: 17px;
+      line-height:1.1;
+    }
+
+    img{
+      margin-top: 10px;
+      width: 100%;
+      height: 250px;
+      border-radius: 10px;
+      object-fit: cover;
+      //height: 150px;
+    }
+
+    div{
+      padding: 10px 0 10px 0;
+      font-size: 14px;
+      line-height: 20px;
+      //margin-top: 10px;
+      //border: 1px solid salmon;
+    }
+
+    button{
+      padding: 10px 12px 10px 12px ;
+      border-radius: 5px;
+      background-color: $lightGreen;
+      color: white;
+      font-size: 14px;
+
+      &:hover{
+        background-color: $yellow;
+        transition: .1s;
+      }
+    }
+
+  }
+
+}

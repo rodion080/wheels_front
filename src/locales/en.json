@@ -1,0 +1,20 @@
+{
+  "account": "Account",
+  "accountExit":"Log out",
+  "login": "Log in/Register",
+  "registerFormHead": "Registration",
+  "loginFormHead": "Log In",
+  "emailForm": "Email",
+  "loginForm":"Login",
+  "pass": "Password",
+  "confPass": "Confirm password",
+  "regButton": "Register",
+  "regQuestion": "Already registered?",
+  "logInLinkName": "Log in",
+  "newsLink": "News",
+  "mapLink": "Map",
+  "listLink": "Journeys list",
+  "leadRatingLink": "Leads rating",
+  "searchHeading": "Choose the city, where you want to find a journey or create one",
+  "searchButton": "Search"
+}

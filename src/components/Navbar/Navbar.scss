@@ -1,0 +1,109 @@
+.nav {
+  width: 100%;
+  display: flex;
+  //border: 1px solid red;
+  position: relative;
+  flex-direction: column;
+  //z-index: 10;
+
+  &__langs {
+    //position: relative;
+    //border: 2px solid saddlebrown;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+
+    //border: 1px solid red;
+    background-color: $navBar;
+    &.active {
+
+    }
+  }
+
+  &__list-left {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: $navBar2;
+    height: 60px;
+    float: right;
+  }
+
+  &__list-right {
+    width: 100%;
+    background-color: $navBar;
+    height: 30px;
+    display: flex;
+    //float: right;
+    justify-content: center;
+    position: relative;
+    li{
+      position: relative;
+    }
+  }
+
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $lightWhite;
+
+
+    button, a {
+      padding: 0 5px 0 5px;
+    }
+
+    * {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  }
+
+  &__link{
+    height: 100%;
+    //border: 1px solid salmon;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: $lightWhite;
+    white-space: nowrap;
+    padding: 0 10px 0 10px;
+
+    &:hover {
+      //background: $lightGreen;
+      transition: .1s;
+      color: $lightGreen;
+      box-shadow: 0 4px 0 0 $yellow;
+      z-index: 1;
+    }
+
+  }
+
+  &__item-link-button {
+    cursor: pointer;
+    background: transparent;
+
+    color: $lightWhite;
+    font-size: 15px;
+    height: 30px;
+
+    &.active {
+      background: $lightGreen;
+      color: $lightWhite;
+    }
+
+    &:hover {
+      background: $lightGreen;
+      transition: .4s;
+    }
+
+    img {
+      width: 30px;
+      margin-right: 5px;
+    }
+  }
+}
+

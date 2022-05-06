@@ -1,0 +1,20 @@
+{
+  "account":"Личный кабинет",
+  "accountExit":"Выход",
+  "login":"Войти/Зерегистрироваться",
+  "registerFormHead": "Регистрация",
+  "loginFormHead": "Вход",
+  "emailForm":"Email",
+  "loginForm":"Логин",
+  "pass":"Пароль",
+  "confPass":"Подтверждение пароля",
+  "regButton": "Регистрация",
+  "regQuestion": "Уже зарегистрированы?",
+  "logInLinkName": "Войти",
+  "newsLink": "Новости",
+  "mapLink": "Карта",
+  "listLink": "Список поездок",
+  "leadRatingLink": "Рейтинг организаторов",
+  "searchHeading": "Выберите город, где хотите найти или организовать поездку",
+  "searchButton": "Поиск"
+}

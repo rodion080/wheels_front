@@ -1,0 +1,139 @@
+
+.account-edit {
+  background-color: $lightWhite;
+  display: flex;
+  justify-content: center;
+
+  &-wrapper{
+    width:$workPlaceWith;
+    display: flex;
+  }
+
+}
+
+.account-edit__main-card_small{
+  border-radius: 3px;
+  background-color: #ffffff;
+  display: flex;
+  box-shadow: 0px 0px 5px 2px rgba(34, 60, 80, 0.2);
+
+
+  img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+  }
+}
+
+.account-edit{
+
+
+  height: 100vh;
+
+  h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  &__main-card-wrapper{
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+
+
+    span{
+      display: block;
+      margin-top: 5px;
+    }
+  }
+
+  &__photo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img{
+      margin-top: 20px;
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+
+  }
+
+  &__description{
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 2px rgba(34, 60, 80, 0.2);
+    background-color: #fff;
+    border: 1px solid transparent;
+
+    h1{
+      padding: 15px 10px 10px 0;
+      margin: 15px 10px 10px 10px;
+      border-bottom: 1px solid $lightWhite;
+    }
+
+    form{
+      margin-top: 10px;
+      padding-left: 10px;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+
+      label{
+        //margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 10px 0 10px 0;
+        //display: block;
+      }
+
+      .g-button-1{
+        margin-bottom: 20px;
+      }
+
+      input{
+        border-radius: 3px;
+        padding: 10px 0 10px 10px;
+        margin-top: 10px;
+        border: 1px solid $lightGreen;
+      }
+
+      textarea{
+        font-size: 17px;
+        line-height: 25px;
+        border-radius: 3px;
+        border: 1px solid $lightGreen;
+        margin-top: 10px;
+        resize: none ;
+        width: 450px;
+        height: 200px;
+        padding: 10px;
+      }
+
+    }
+  }
+
+  //account-edit__photo-description
+  &__photo-description{
+    line-height: 20px;
+    margin-top: 20px;
+    width: 350px;
+  }
+
+  &__photo-button-wrapper{
+    margin-top: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+
+}

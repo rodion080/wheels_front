@@ -1,0 +1,29 @@
+.no-avatar{
+  &-large{
+    display: flex;
+    justify-content: center;
+    img{
+      object-fit: cover;
+      border: 2px solid $lightWhite;
+      border-radius: 50%;
+      width: 160px;
+      height: 160px;
+    }
+  }
+
+  &-small{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid $lightGreen;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+}
