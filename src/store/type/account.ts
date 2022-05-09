@@ -26,7 +26,8 @@ export interface AccountDataType {
     url:string | null,
     file?:string | File,
     description:string,
-    accountLocalData:AccountLocalDataType
+    accountLocalData:AccountLocalDataType,
+    removeAvatar?:boolean,
 }
 
 export interface AccountState {
