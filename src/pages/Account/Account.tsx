@@ -60,8 +60,9 @@ const Account = () => {
   const { loading, accountData, error } = useTypedSelector((state) => state.account);
   const { fetchAccount } = useActions();
   const [accountMode, setAccountMode] = useState<TypeInitAccountMode>(initAccountMode);
+  // eslint-disable-next-line no-unused-vars
   const [userIsAdmin, setUserIsAdmin] = useState<boolean>(true);
-  console.log(setUserIsAdmin);
+  // console.log(setUserIsAdmin);
 
   useEffect(() => {
     fetchAccount(localStorage.getItem('userId'));

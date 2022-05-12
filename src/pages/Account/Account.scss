@@ -175,6 +175,20 @@
     }
   }
 
+  &__part-journey-wrapper{
+    margin-bottom: 20px;
+
+
+    a:visited{
+      color: inherit;
+    }
+
+  }
+
+  &__events-wrapper{
+    margin-bottom: 10px;
+  }
+
   &__empty_events{
     height: 50vh;
     display: flex;
@@ -184,9 +198,9 @@
 
   }
 
-  &__event{
-    //border: 1px solid $lightGreen;
 
+
+  &__event{
     padding: 0 20px 0 20px ;
     margin-top: 10px;
     border: 1px solid $lightGreen;
@@ -199,6 +213,7 @@
       font-size: 18px;
       //height: 30px;
       white-space: nowrap;
+      color: $lightGreen;
       width: 80%;
       overflow-x: scroll;
       overflow-y: hidden;
@@ -208,7 +223,9 @@
 
       &:visited{
         text-decoration: none!important;
-        color: $lightBlack;
+        //color: $lightGreen;
+        //color: $lightBlack;
+
       }
 
       &:hover{

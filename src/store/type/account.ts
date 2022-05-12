@@ -56,4 +56,5 @@ interface SetAccountAction {
 }
 
 // eslint-disable-next-line max-len
-export type AccountAction = FetchAccountAction | SuccessAccountAction | ErrorAccountAction | SetAccountAction
+export type AccountAction = FetchAccountAction | SuccessAccountAction
+    | ErrorAccountAction | SetAccountAction

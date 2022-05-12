@@ -4,28 +4,7 @@ import JList from '../pages/JList/JList';
 import Leaders from '../pages/Leaders/Leaders';
 import Account from '../pages/Account/Account';
 import AccountEdit from '../pages/Account/AccountEdit';
-// import PartJourneys from '../pages/Account/AccountMenu/PartJourneys/PartJourneys';
-// import AdminJourneys from '../pages/Account/AccountMenu/AdminJourneys/AdminJourneys';
-// import Admin from '../pages/Account/AccountMenu/Admin/Admin';
-// import { NavActive } from '../types/Account';
-//
-// const PartJourneyAccount = () => (
-//   <Account navActive={NavActive.PART_JOURNEYS}>
-//     <PartJourneys />
-//   </Account>
-// );
-//
-// const AdminJourneysAccount = () => (
-//   <Account navActive={NavActive.ADMIN_JOURNEYS}>
-//     <AdminJourneys />
-//   </Account>
-// );
-//
-// const AdminAccount = () => (
-//   <Account navActive={NavActive.ADMIN}>
-//     <Admin />
-//   </Account>
-// );
+import JourneyInfo from '../pages/JourneyInfo/JourneyInfo';
 
 export const publicRoutes = [
   { path: '/', component: <News/>, exact: true },
@@ -36,7 +15,6 @@ export const publicRoutes = [
 
 export const privateRoutes = [
   { path: '/account', component: <Account/>, exact: true },
-  // { path: '/account/adminJourneys', component: <AdminJourneysAccount/>, exact: true },
-  // { path: '/account/admin', component: <AdminAccount/>, exact: true },
+  { path: '/journeyInfo/:journeyId', component: <JourneyInfo/>, exact: true },
   { path: '/account/:id/edit', component: <AccountEdit/>, exact: true },
 ];

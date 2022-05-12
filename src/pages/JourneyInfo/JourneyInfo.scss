@@ -1,0 +1,178 @@
+@import "../../styles/vars";
+$chatBorderRadius:7px;
+
+.journey-info {
+  background-color: #fff;
+  display: flex;
+
+  &__data {
+    width: auto;
+  }
+
+  &__data-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-size: 25px;
+      padding: 10px;
+    }
+  }
+
+  &__description {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  &__map {
+    border: 2px solid darkolivegreen;
+  }
+
+  &__chat {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    //border: 2px solid darkolivegreen;
+    min-width: 350px;
+    //height: 90vh;
+
+    //display: flex;
+    //flex-direction: row;
+    //justify-content: space-between;
+    //align-items: stretch;
+    //height: 200px;
+    //border: 5px solid black;
+
+    &-line {
+      //flex: 0 0 200px;
+      overflow-y: scroll;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      //background-color: #FF9999;
+      //height: ;
+      height: 80vh;
+      background-color: #f1f1f1;
+      padding: 5px;
+    }
+
+    &-message{
+      margin-top: 5px;
+      margin-left: -20px;
+      font-size: 18px;
+      color: $lightBlack;
+      h1{
+        color: $lightBlack;
+        font-size: 17px;
+        margin-bottom: 5px;
+      }
+
+      span{
+        width: 300px;
+        background: $lightGreen;
+        display: block;
+        color: white;
+        padding: 5px;
+        //word-wrap: break-word;
+        overflow-wrap: break-word;
+        border-bottom-left-radius: $chatBorderRadius;
+        border-bottom-right-radius: $chatBorderRadius;
+        border-top-right-radius: $chatBorderRadius;
+        //margin-right: 15px;
+        //margin-top: 5px;
+      }
+    }
+
+    &-message_right{
+      margin-right: -35px;
+      //width: 300px;
+      font-size: 18px;
+
+      margin-top: 5px;
+
+      h1{
+        color: $lightBlack;
+        font-size: 17px;
+        //border: 1px solid sandybrown;
+        text-align: right;
+        margin-bottom: 5px;
+      }
+
+      span{
+        //float: right;
+        width: 300px;
+        background: $yellow;
+        display: block;
+        color: white;
+        //word-wrap: break-word;
+        overflow-wrap: break-word;
+        padding: 5px;
+        border-bottom-left-radius: $chatBorderRadius;
+        border-bottom-right-radius: $chatBorderRadius;
+        //border-top-right-radius: 7px;
+        border-top-left-radius: $chatBorderRadius;
+        //margin-left: 15px;
+        //margin-top: 5px;
+      }
+    }
+
+    &-form {
+      display: flex;
+      textarea {
+        width: 100%;
+        border: 1px solid $lightGreen;
+        font-size: 17px;
+        padding: 5px  5px 5px  5px;
+        color: $lightBlack;
+        line-height: 1.3;
+        resize: none;
+        height: 100px;
+        //margin: 2px;
+        border-radius: 4px;
+
+
+        &::-webkit-scrollbar{
+          width :6px;
+          //border: 1px solid sandybrown;
+          cursor: pointer !important;
+          height: 5px;
+        }
+
+        &::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          //background-color: yellow;
+          height: 25px;
+          cursor: pointer;
+          //border: 1px solid green;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          cursor: pointer!important;
+          background-color: $yellow;
+          height: 25px;
+          //outline: 1px solid black;
+        }
+        //
+        &::-webkit-scrollbar-thumb:hover {
+          background-color: #424242;
+          cursor: pointer !important;
+        }
+
+
+        &::-webkit-scrollbar-track:hover {
+          cursor: pointer !important;
+        }
+
+        &::-webkit-scrollbar:hover {
+          cursor: pointer !important;
+        }
+        //
+      }
+      button {
+        //width: 20%;
+      }
+      //flex: 1 1 25%;
+      //background-color: #9999FF;
+    }
+
+  }
+}

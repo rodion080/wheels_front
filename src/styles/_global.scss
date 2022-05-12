@@ -76,6 +76,40 @@ body {
 
 }
 
+.g-pag{
+  display: flex;
+  align-items: flex-start;
+
+  &__button{
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+    color: $lightGreen;
+    margin-right: 10px;
+    cursor: pointer;
+
+    &:hover{
+      background-color: $yellow;
+      color: white;
+      transition: .4s;
+    }
+
+    &.active{
+      background-color: $lightWhite;
+      color: $lightGreen;
+      border: 1px solid $lightGreen;
+
+
+      &:hover{
+        background-color: $yellow;
+        color: white;
+        transition: .4s;
+      }
+    }
+
+  }
+
+}
 
 //@media (max-width: 1240px) {
 //  .container {

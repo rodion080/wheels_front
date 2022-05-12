@@ -6,6 +6,7 @@ export default class LogRegService {
   static async login(logForm: logFormType) {
     const address = `${config.SERVER_ADDRESS}users/login`;
     const data = { loginOrEmail: logForm.logMail, password: logForm.password };
+    console.log('data', data);
     return (axios.post(address, data));
   }
 

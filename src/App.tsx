@@ -10,6 +10,7 @@ import LogReg from './components/LogReg/LogReg';
 import AppRouter from './components/AppRouter';
 import { useActions } from './hooks/useActions';
 import Basement from './components/Basement/Basement';
+// import ChatService from './API/ChatService';
 // import {fetchAuth} from "./store/action-creators/auth";
 
 const App = () => {

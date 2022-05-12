@@ -1,3 +1,4 @@
 {
-  "SERVER_ADDRESS": "http://localhost:7002/"
+  "SERVER_ADDRESS": "http://localhost:7002/",
+  "WEBSOCKET_ADDRESS": "ws://localhost:7003"
 }

@@ -1,20 +1,20 @@
 import { useState } from 'react';
-
-export const useFetch = (callback) => {
+// @ts-ignore
+export const useFetching = (callback) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
 
+  // @ts-ignore
   const fetching = async (...args) => {
     try {
       setIsLoading(true);
       await callback(...args);
-    } catch (e) {
+    } catch (e:any) {
       setError(e.message);
     } finally {
       setIsLoading(false);
     }
   };
 
-  return { isLoading, error, fetching };
-
+  return [fetching, isLoading, error] as const;
 };
